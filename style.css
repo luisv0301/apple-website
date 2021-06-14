@@ -10,6 +10,10 @@ html {
   font-size: 16px;
 }
 
+body.no-scroll {
+  overflow: hidden;
+}
+
 h2 {
   font-size: 3rem;
 }
@@ -66,7 +70,6 @@ ul {
 
 @media (max-width: 732px) {
   .nav {
-    position: absolute;
     -webkit-transition: height 2s cubic-bezier(0.19, 1, 0.22, 1);
     transition: height 2s cubic-bezier(0.19, 1, 0.22, 1);
   }
@@ -102,7 +105,7 @@ ul {
   top: 44px;
   width: 100%;
   border-bottom: 1px solid #424245;
-  padding-bottom: 11px;
+  padding: 0 22px 11px 22px;
 }
 
 @media (max-width: 732px) {
@@ -165,7 +168,6 @@ ul {
             align-items: flex-start;
     position: absolute;
     top: 92px;
-    padding: 0;
   }
 }
 

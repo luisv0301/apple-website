@@ -11,4 +11,5 @@ hamburMenu.addEventListener("click", () => {
   navItems.classList.toggle("act");
   barOne.classList.toggle("act");
   barTwo.classList.toggle("act");
+  document.body.classList.toggle("no-scroll");
 });
